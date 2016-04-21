@@ -1,4 +1,5 @@
-\documentclass{article}
+% SIAM Article Template
+\documentclass[review]{siamart0216}
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{amsmath}
@@ -21,7 +22,7 @@
 % for images: png, pdf, etc
 \usepackage{graphicx}
 
-% for nice table formatting, i.e. /toprule, /midrule, etc
+% for nice table formatting, i.e., /toprule, /midrule, etc
 \usepackage{booktabs}
 
 % to allow for \verb++ declarations in captions.
@@ -30,7 +31,11 @@
 % to allow usage of \mathbb symbols
 \usepackage{amssymb}
 
+\usepackage{longtable}
+
 \title{SymPy: Symbolic Computing in Python}
+
+\input{authors}
 
 \begin{document}
 \maketitle
@@ -108,7 +113,7 @@
 
 \section{References}
 
+\bibliographystyle{siamplain}
 \bibliography{paper}
-\bibliographystyle{unsrt}
 
 \end{document}
